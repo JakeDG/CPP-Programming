@@ -18,9 +18,12 @@
     <ClInclude Include="employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="testFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="employeeDriver.cpp">
+    <ClCompile Include="testFuncsDriver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

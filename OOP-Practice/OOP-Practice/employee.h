@@ -4,9 +4,9 @@
 */
 
 #pragma once // Guard
-#include<iostream>
+#include <iostream>
 #include <iomanip>
-#include<string>
+#include <string>
 
 using namespace std;
 

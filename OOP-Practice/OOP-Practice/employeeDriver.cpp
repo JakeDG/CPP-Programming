@@ -1,10 +1,13 @@
 /*
 	Developed by Jacob Gidley
+
 	Driver program for the Employee class
 */
 
-#include<iostream>
+#include <iostream>
 #include "employee.h"
+
+using namespace std;
 
 int main ()
 {

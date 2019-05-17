@@ -20,9 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="employee.h" />
+    <ClInclude Include="testFuncs.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="employeeDriver.cpp" />
+    <ClCompile Include="testFuncsDriver.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
