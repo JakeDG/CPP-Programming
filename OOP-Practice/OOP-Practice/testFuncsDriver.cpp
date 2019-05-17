@@ -6,6 +6,7 @@
 
 #include "testFuncs.h"
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
 
@@ -25,7 +26,8 @@ int main()
 		switch (menuInput)
 		{
 			case 0: // Exit program
-				cout << "\nGoodbye." << endl;
+
+				cout << "Goodbye." << endl;
 				exit(0);
 				break;
 
@@ -53,10 +55,39 @@ int main()
 				cin >> funcInput1;
 
 				// Display function result
-				
+				cout << "Remainder of " << funcInput1 << " divided by 7 is: " << Funcs::remainder(funcInput1) << endl;
+				break;
+
+			case 3: // Distance function
+
+				double x1, x2, y1, y2; // Store point coordinates
+
+				cout << "--- Disance function ---" << endl;
+
+				// Get 1st point coordinates
+				cout << "Enter first set of coordinates x1: ";
+				cin >> x1;
+				cout << "Enter first set of coordinates y1: ";
+				cin >> y1;
+
+				// Get 2nd point coordinaes
+				cout << "Enter first set of coordinates x2: ";
+				cin >> x2;
+				cout << "Enter first set of coordinates y2: ";
+				cin >> y2;
+
+				// Output function result
+				printf("Distance between (%.2f, %.2f) and (%.2f, %.2f) is: %.2f\n", x1, y1, x2, y2, Funcs::distance(x1,y1,x2,y2));
+				break;
+
+			case 4: // Coin flip function
+
+				cout << "--- Coin Flip function ---" << endl;
+				Funcs::coinflip();
+				break;
 
 			default:
-				exit(0);
+				cout << "Invalid input. Please enter a valid option." << endl;
 				break;
 		}
 
