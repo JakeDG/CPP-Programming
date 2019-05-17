@@ -23,6 +23,7 @@
     <ClInclude Include="testFuncs.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="employeeDriver.cpp" />
     <ClCompile Include="testFuncsDriver.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
