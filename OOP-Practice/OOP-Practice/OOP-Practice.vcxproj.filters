@@ -21,6 +21,18 @@
     <ClInclude Include="testFuncs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CheckingBankAccount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="testFuncsDriver.cpp">
